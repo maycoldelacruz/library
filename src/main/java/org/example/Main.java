@@ -1,27 +1,23 @@
 package org.example;
 
-import org.example.ejercicios.Sem2.Monday;
-import org.example.ejercicios.Sem2.Tuesday;
+import org.example.ejerciciosF.LambdasBasic;
+import org.example.ejerciciosF.Messages;
+import org.example.ejerciciosN.Sem2.Monday;
+import org.example.ejerciciosN.Sem2.Tuesday;
+import org.example.ejerciciosN.Sem2.Wednesday;
 
-import java.util.stream.IntStream;
+import java.util.Comparator;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.println("Hello and welcome!");
 
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        /*for (int i = 1; i <= 5; i++) {
-
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }*/
         //System.out.println(Sem1.SumaIntermedios(8,10));
-        System.out.println("FIBONACCI :"+Monday.fibonacci(10) );
-        Tuesday.streamTestet();
+        //System.out.println("FIBONACCI :"+Monday.fibonacci(10) );
+        //Tuesday.streamTestet();
+        int result1 = LambdasBasic.lambdaUno(8);
+        int result2 = LambdasBasic.lambdaDos(16,2);
+        Messages.mayorMenorMessage(result1,result2);
+        String t="Fibonacci";
+        Wednesday.todoMayus(t);
     }
 }

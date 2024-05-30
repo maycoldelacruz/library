@@ -1,4 +1,4 @@
-package org.example.ejercicios;
+package org.example.ejerciciosN;
 
 public class Sem1 {
     private int numero1, numero2;

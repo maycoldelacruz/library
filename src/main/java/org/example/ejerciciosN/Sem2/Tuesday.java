@@ -1,4 +1,4 @@
-package org.example.ejercicios.Sem2;
+package org.example.ejerciciosN.Sem2;
 
 import java.util.stream.IntStream;
 
